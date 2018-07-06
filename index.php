@@ -26,7 +26,6 @@
                 XHR.open("GET", "query.php?Text=" + Text, false);
             XHR.send();
             if (XHR.status == 200) {
-                alert(XHR.responseText);
                 let newDiv = document.createElement("p");
                 newDiv.innerHTML = "Сокращенный URL: " + XHR.responseText;
                 document.body.appendChild(newDiv);
