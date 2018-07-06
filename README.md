@@ -1,0 +1,2 @@
+# ResizeUrl
+Generate small URL
